@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChessRDV — Master your chess openings</title>
+  <meta name="description" content="ChessRDV helps you learn, drill, and remember chess openings with spaced repetition. Build a personal repertoire and never forget a line again.">
+  <style>
+    :root {
+      --bg: #1c1a17;
+      --surface: #2a2622;
+      --text: #f3ece1;
+      --muted: #b8ad9c;
+      --accent: #d2a25c;
+      --accent-dark: #a8783c;
+      --border: #3a342e;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+    header {
+      padding: 64px 20px 32px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    header img { width: 112px; height: 112px; border-radius: 24px; }
+    h1 {
+      font-size: 2.4rem;
+      margin: 16px 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .tagline { color: var(--muted); font-size: 1.15rem; margin: 0 0 24px; }
+    .cta {
+      display: inline-block;
+      background: var(--accent);
+      color: #1c1a17;
+      padding: 12px 28px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+    .cta:hover { background: var(--accent-dark); color: var(--text); }
+    section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+    section:last-of-type { border-bottom: none; }
+    h2 { font-size: 1.5rem; margin: 0 0 24px; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .feature {
+      background: var(--surface);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .feature h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+      color: var(--accent);
+    }
+    .feature p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    footer {
+      text-align: center;
+      padding: 32px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="art/play_store_icon.png" alt="ChessRDV icon">
+      <h1>ChessRDV</h1>
+      <p class="tagline">Learn, drill, and remember chess openings.</p>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.chessrdv">Get it on Google Play</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        ChessRDV is a focused training companion for the opening phase of the game.
+        Pick lines from a curated tree of openings, drill them as White or Black, and
+        let spaced repetition surface the moves you are about to forget — before you
+        forget them at the board.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>Opening explorer</h3>
+          <p>Browse a tree of named openings and variations. Pick the lines you want in your repertoire.</p>
+        </div>
+        <div class="feature">
+          <h3>Memorizer</h3>
+          <p>Drill your selected lines move by move. Quiet, distraction-free practice.</p>
+        </div>
+        <div class="feature">
+          <h3>Spaced repetition</h3>
+          <p>Lines you struggle with come back sooner. Lines you know come back later.</p>
+        </div>
+        <div class="feature">
+          <h3>Daily reminders</h3>
+          <p>Optional notification when openings are due — show up, do five minutes, keep your edge.</p>
+        </div>
+        <div class="feature">
+          <h3>Side picked for you</h3>
+          <p>Train as the side to move after the last book move &mdash; no fiddly color toggles, just the position you&rsquo;d face over the board.</p>
+        </div>
+        <div class="feature">
+          <h3>Offline</h3>
+          <p>Everything runs on-device. No account, no tracking your games.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Who it&rsquo;s for</h2>
+      <p>
+        Club players who keep blanking on move 8. Improvers who want a serious
+        repertoire without buying a video course. Anyone who has ever closed a
+        chess book, felt confident, and lost the thread two days later.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; ChessRDV &middot;
+      <a href="mailto:cgeducationgames@gmail.com">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
